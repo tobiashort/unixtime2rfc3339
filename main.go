@@ -11,7 +11,7 @@ import (
 )
 
 func printUsage() {
-	fmt.Fprint(os.Stderr, `Usage: unixtime2iso [SECS]
+	fmt.Fprint(os.Stderr, `Usage: unixtime2rfc3339 [SECS]
 Reads from STDIN if SECS is not provided as an argument.
 
 Flags:
